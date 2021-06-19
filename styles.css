@@ -1,0 +1,26 @@
+:root {
+    --light-purple: #C271FF; 
+}
+
+body {
+    color: white;
+}
+
+header {
+    background-image: url('images/pic_1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+    height: 100vh;
+}
+
+.btn {
+    background-color: var(--light-purple);
+    border-radius: 1rem;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+.jumbotron {
+    background-color: transparent;
+}
