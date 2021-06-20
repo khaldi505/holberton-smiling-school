@@ -30,15 +30,24 @@ header {
     background-color: transparent;
 }
 
-
-.m-con {
-    height: 50vh;
-}
-
 .my-bg {
     background-color: var(--idk-purple-ig);
 }
 
+.carousel-item p.col-4 {
+    font-weight: 400;
+    font-size: 22px;
+
+}
+
+
+
+
+
+.my-caro {
+    height: 50vh;
+    background-color: var(--idk-purple-ig);
+}
 
 /* fixing collapse breakpoint */
 
