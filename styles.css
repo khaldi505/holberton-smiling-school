@@ -1,5 +1,6 @@
 :root {
-    --light-purple: #C271FF; 
+    --light-purple: #C271FF;
+    --idk-purple-ig: #C271FF;
 }
 
 html {
@@ -14,8 +15,7 @@ header {
     background-image: url('images/pic_1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
- 
-    height: 200vh;
+    height: 170vh;
 }
 
 .btn {
@@ -30,9 +30,35 @@ header {
     background-color: transparent;
 }
 
-@media (min-width: 768px) and (max-width: 1000px) {
-    .collapse, .navbar-toggler-icon, .navbar-toggler {
-        display: none !important;
-    }
 
- }
+.m-con {
+    height: 50vh;
+}
+
+.my-bg {
+    background-color: var(--idk-purple-ig);
+}
+
+
+/* fixing collapse breakpoint */
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+    .navbar-brand {
+        order: 1;
+    }
+    .navbar-collapse {
+        flex-grow:0;}
+    .navbar-toggler, .collapse {
+        display: none;
+    }
+    .collapse:not(.show) {
+        display: flex;
+    }
+    .navbar-collapse {
+        flex-basis: auto;
+    }
+    .navbar-nav {
+        flex-direction: row;
+    }
+}
