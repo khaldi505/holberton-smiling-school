@@ -1,7 +1,16 @@
 :root {
     --light-purple: #C271FF;
     --idk-purple-ig: #C271FF;
+    --card-header: #071629;
+    --card-text: rgba(7, 22, 41, 0.5);
 }
+
+
+
+
+
+
+
 
 html {
     scroll-behavior: smooth;
@@ -40,14 +49,35 @@ header {
 
 }
 
+.my-sec-caro{
+    height: 100vh;
 
+}
 
-
+.card-style h5 {
+    color: var(--card-header);
+}
+.card-style p {
+    color: var(--card-text);
+}
 
 .my-caro {
     height: 50vh;
     background-color: var(--idk-purple-ig);
 }
+
+.purple{
+    color: var(--idk-purple-ig);
+}
+
+.play-icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-left: 5rem;
+    padding-top: 1.5rem;
+  }
+
 
 /* fixing collapse breakpoint */
 
