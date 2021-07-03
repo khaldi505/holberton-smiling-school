@@ -79,10 +79,22 @@ header {
   }
 
   .bg {
+    background-color: var(--card-header);
+}
+  .bg-1 {
       background-color: var(--card-header);
-  }
+      height: 30vh;
 
-/* fixing collapse breakpoint */
+  }
+  .fa {
+    background: white;
+    color: var(--card-header);
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+
+
 
 @media (min-width: 768px) and (max-width: 1024px){
 
