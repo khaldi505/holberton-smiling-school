@@ -24,7 +24,7 @@ header {
     background-image: url('images/pic_1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 170vh;
+    height: 155vh;
 }
 
 .btn {
@@ -62,7 +62,7 @@ header {
 }
 
 .my-caro {
-    height: 50vh;
+    height: 40vh;
     background-color: var(--idk-purple-ig);
 }
 
@@ -78,6 +78,9 @@ header {
     padding-top: 1.5rem;
   }
 
+  .bg {
+      background-color: var(--card-header);
+  }
 
 /* fixing collapse breakpoint */
 
@@ -99,5 +102,13 @@ header {
     }
     .navbar-nav {
         flex-direction: row;
+    }
+}
+
+@media (max-width: 575px) {
+    .bg {
+        background-color: var(--card-header);
+        height: 100%;
+
     }
 }
