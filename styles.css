@@ -134,3 +134,8 @@ header {
 .check-icon {
     background-color: #82D24F;
 }
+.nav-item .nav-link:hover {
+    color: var(--idk-purple-ig) !important;
+    padding-bottom: 0.5rem !important;
+    text-decoration: underline white solid!important;
+}
