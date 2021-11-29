@@ -1,4 +1,4 @@
-<h1 align="center">Holberton Smiling School Javascript</h1>
+<h1 align="center">Holberton Smiling School</h1>
 
 <p align="center">
   <img src='./readme_Media/Holbertonschool.png'></img>
